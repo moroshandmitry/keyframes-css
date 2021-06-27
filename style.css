@@ -1,0 +1,38 @@
+#star {
+  position: relative;
+  animation: mymove 3s cubic-bezier(0.8, 0.1, 0.5, 0.1) infinite alternate;
+}
+@keyframes mymove {
+  0% {
+    top: 0px;
+    width: 50px;
+    height: 100px;
+    background: greenyellow;
+    border-radius: 100%;
+  }
+  25% {
+    top: 50px;
+    width: 100px;
+    height: 150px;
+    border-radius: 700px 100px 700px 300px;
+    background: red;
+  }
+  50% {
+    top: 100px;
+    background: blue;
+    width: 150px;
+    height: 200px;
+  }
+  75% {
+    top: 150px;
+    background: blueviolet;
+    width: 200px;
+    height: 250px;
+  }
+  100% {
+    top: 200px;
+    background: crimson;
+    width: 250px;
+    height: 300px;
+  }
+}
